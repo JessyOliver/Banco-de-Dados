@@ -44,13 +44,14 @@ INSERT INTO tb_estudante(nome_estudante, serie_estudante, periodo_estudante, ra_
 VALUES("Mariana da Silva", "7°D", "Matutino", "698530", 9);
 
 /* Faça um select que retorne o/as estudantes com a nota maior do que 7. */
-SELECT * FROM tb_estudante WHERE nota_estudante > 7;
+SELECT * FROM tb_estudante WHERE nota_estudante >= 7;
 
 /* Faça um select que retorne o/as estudantes com a nota MENOR do que 7. */
 SELECT * FROM tb_estudante WHERE nota_estudante < 7;
 
 /*Ao término atualize um dado desta tabela através de uma query de atualização.*/
-UPDATE tb_estudante SET serie_estudante = "8° D" WHERE id_estudante = '7';
+UPDATE tb_estudante SET serie_estudante = "8°D" WHERE id_estudante = '7';
 
+/*selecionando e exibindo os dados da tabela*/
 SELECT * FROM tb_estudante;
 

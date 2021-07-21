@@ -55,3 +55,4 @@ UPDATE tb_produto_ecommerce SET tamanho_produtos = "40" WHERE id_produtos = '1';
 
 /*EXIBINDO TABELA*/
 SELECT * FROM tb_produto_ecommerce;
+
